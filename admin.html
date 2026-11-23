@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Edu Fair</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">EF<span>26</span></div>
+
+    <nav>
+        <a href="index.html">Halaman Undangan</a>
+    </nav>
+</header>
+
+<section class="section">
+
+    <p class="label2">HALAMAN ADMIN</p>
+
+    <h2>Data Tamu Undangan</h2>
+
+    <p>
+        Masukin file CSV di bawah ini buat nampilin
+        daftar tamu undangan.
+    </p>
+
+    <br>
+
+    <input type="file" id="fileCSV" accept=".csv">
+
+    <br><br>
+
+    <div style="overflow-x:auto">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama Tamu</th>
+                    <th>Instansi</th>
+                    <th>Kategori</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+
+            <tbody id="dataTamu">
+                <tr>
+                    <td colspan="4">Belum ada data tamu.</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+</section>
+
+<script src="admin.js"></script>
+
+</body>
+</html>
