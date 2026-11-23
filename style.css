@@ -1,0 +1,343 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f3ef;
+    color: #17182b;
+}
+
+header {
+    background: #101329;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo, footer h2 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.logo span, footer span {
+    color: #e8c77b;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 22px;
+    font-size: 13px;
+}
+
+.hero {
+    background: #101329;
+    color: white;
+    min-height: 570px;
+    padding: 110px 10%;
+}
+
+.label {
+    color: #e8c77b;
+    letter-spacing: 3px;
+    font-size: 11px;
+}
+
+.hero h1 {
+    font-size: 65px;
+    line-height: 1.15;
+    margin: 25px 0;
+}
+
+.hero h1 span,
+.info h2 span {
+    color: #e8c77b;
+}
+
+.deskripsi {
+    max-width: 450px;
+    color: #c5c5d0;
+    line-height: 1.8;
+}
+
+.tanggal {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.tanggal h2 {
+    color: #e8c77b;
+    font-size: 45px;
+}
+
+.tanggal p {
+    color: #aaa;
+    font-size: 12px;
+}
+
+.tombol {
+    display: inline-block;
+    background: #7770e8;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.section {
+    padding: 85px 10%;
+}
+
+.label2 {
+    color: #7770e8;
+    font-size: 11px;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.undangan {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    background: white;
+    padding: 45px;
+    border-radius: 10px;
+    line-height: 2;
+}
+
+.salam {
+    color: #7770e8;
+    font-style: italic;
+}
+
+.undangan h2 {
+    margin-top: 15px;
+    font-size: 27px;
+}
+
+.undangan hr {
+    width: 60px;
+    margin: 25px auto;
+    border: 1px solid #e8c77b;
+}
+
+.undangan p {
+    color: #666;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.info {
+    background: #eeece7;
+}
+
+.info h2,
+.section h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.info > p:last-of-type {
+    color: #666;
+    max-width: 650px;
+    line-height: 1.8;
+}
+
+.info-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 45px;
+    border-top: 1px solid #ccc;
+    padding-top: 25px;
+}
+
+.info-box small,
+.info-box b {
+    display: block;
+}
+
+.info-box small {
+    color: #7770e8;
+    margin-bottom: 8px;
+    font-size: 10px;
+}
+
+.info-box b {
+    font-size: 13px;
+}
+
+.jadwal {
+    border-left: 2px solid #7770e8;
+    padding-left: 25px;
+}
+
+.jadwal p {
+    padding: 12px 0;
+    color: #555;
+}
+
+.jadwal b {
+    color: #7770e8;
+}
+
+.benefit {
+    background: #101329;
+    color: white;
+}
+
+.kartu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 35px;
+}
+
+.kartu article {
+    border: 1px solid #55566a;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.kartu h3 {
+    color: #e8c77b;
+    margin-bottom: 15px;
+}
+
+.kartu p {
+    color: #bbb;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.lokasi iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+.rsvp {
+    background: #eeece7;
+}
+
+.rsvp > p:not(.label2) {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+form {
+    max-width: 550px;
+    display: grid;
+    gap: 15px;
+}
+
+input, select {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+button {
+    background: #7770e8;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+button:hover,
+.tombol:hover {
+    background: #5b54ca;
+}
+
+footer {
+    background: #101329;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+footer p,
+footer small {
+    color: #aaa;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+@media(max-width: 700px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 0 7px;
+        font-size: 11px;
+    }
+
+    .hero {
+        padding: 85px 7%;
+    }
+
+    .hero h1 {
+        font-size: 43px;
+    }
+
+    .section {
+        padding: 65px 7%;
+    }
+
+    .info-box,
+    .kartu {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .undangan {
+        padding: 25px;
+    }
+}
+
+/* Bagian halaman admin */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    font-size: 12px;
+    text-align: left;
+}
+
+th {
+    background: #101329;
+    color: white;
+}
+
+.admin-button {
+    padding: 8px 12px;
+    margin: 3px;
+}
